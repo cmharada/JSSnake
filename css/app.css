@@ -1,0 +1,15 @@
+.row {
+  height: 20px;
+}
+
+.square {
+  display: inline-block;
+  border: thin solid black;
+  background: white;
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background: green;
+}

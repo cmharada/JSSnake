@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+  </head>
+  <body>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <!-- Whackjobs at GithubPages don't understand symlinks... -->
+    <script src="../js/snake.js"></script>
+    <script src="../js/snake_ui.js"></script>
+
+    <h1>Snake</h1>
+    
+    <div class="widget" tabindex="0">
+    </div>
+    
+    <script>
+        // var snake = new Snakes.Snake();
+        // var board = new Snakes.Board(snake);
+        // board.render();
+        // var snakeWidget = new Snake.Widget(game, $widget)
+        // snakeWidget.play();
+        
+        $(function() {
+          var $widget = $(".widget");
+          var view = new Snakes.View($widget);
+        });
+    </script>
+  </body>
+</html>
